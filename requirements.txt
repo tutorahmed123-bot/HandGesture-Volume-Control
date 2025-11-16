@@ -2,3 +2,4 @@
 mediapipe>=0.10.0
 numpy>=1.21.0
 comtypes>=1.1.14
+pycaw>=1.1.0
