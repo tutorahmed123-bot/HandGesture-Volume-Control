@@ -1,61 +1,20 @@
-﻿# Hand Gesture Volume Control 🎵✋
+# HandGesture Volume Control
 
-A Python application that controls your system volume using hand gestures via webcam.
+A Python application that controls system volume using hand gestures via webcam.
 
 ## Features
-- 🤚 Real-time hand gesture recognition using MediaPipe
-- 🔊 Visual volume control based on hand openness
-- 🎯 Smooth and responsive gesture detection
-- ⚡ Optimized for performance
+- Real-time hand tracking using MediaPipe
+- Volume control with thumb and index finger distance
+- System volume adjustment
+- Easy to use interface
 
-## Demo
-*Show your hand to the camera to control the volume!*
+## Requirements
+- Python 3.7+
+- Webcam
+- Windows/macOS/Linux
 
 ## Installation
 
-1. **Clone the repository**
-   \\\ash
-   git clone https://github.com/yourusername/HandGesture-Volume-Control.git
-   cd HandGesture-Volume-Control
-   \\\
-
-2. **Create virtual environment (recommended)**
-   \\\ash
-   python -m venv venv
-   venv\Scripts\activate
-   \\\
-
-3. **Install dependencies**
-   \\\ash
-   pip install -r requirements.txt
-   \\\
-
-## Usage
-
-Run the application:
-\\\ash
-python run.py
-\\\
-
-## Controls
-- **Open Hand** 🖐️ - Increase volume (visual bar)
-- **Closed Hand** ✊ - Decrease volume (visual bar)
-- **Press 'Q'** - Quit application
-
-## Requirements
-- Python 3.8+
-- Webcam
-- Windows 10/11
-
-## Project Structure
-\\\
-HandGesture-Volume-Control/
-├── src/                 # Source code
-├── docs/               # Documentation  
-├── requirements.txt    # Dependencies
-├── README.md          # This file
-└── run.py             # Main executable
-\\\
-
-## License
-MIT License
+1. Clone this repository:
+```bash
+git clone https://github.com/tutorahmed123-bot/HandGesture-Volume-Control.git
